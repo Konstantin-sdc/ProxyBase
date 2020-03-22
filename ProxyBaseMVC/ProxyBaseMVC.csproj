@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200222134520_AddPopulation.cs" />
+    <Compile Remove="Migrations\20200222134520_AddPopulation.Designer.cs" />
+    <Compile Remove="Migrations\20200227131125_FignyaProperty.cs" />
+    <Compile Remove="Migrations\20200227131125_FignyaProperty.Designer.cs" />
+    <Compile Remove="Migrations\20200227131515_FignyaProperty.cs" />
+    <Compile Remove="Migrations\20200227131515_FignyaProperty.Designer.cs" />
+    <Compile Remove="Migrations\20200227201641_Population.cs" />
+    <Compile Remove="Migrations\20200227201641_Population.Designer.cs" />
+    <Compile Remove="Migrations\20200301165220_PopulationComplex.cs" />
+    <Compile Remove="Migrations\20200301165220_PopulationComplex.Designer.cs" />
+    <Compile Remove="Migrations\20200305090352_AddMayor.cs" />
+    <Compile Remove="Migrations\20200305090352_AddMayor.Designer.cs" />
+    <Compile Remove="Migrations\20200305091649_AddMayor.cs" />
+    <Compile Remove="Migrations\20200305091649_AddMayor.Designer.cs" />
+    <Compile Remove="Migrations\20200305092938_AddMayor.cs" />
+    <Compile Remove="Migrations\20200305092938_AddMayor.Designer.cs" />
+    <Compile Remove="Migrations\20200305123636_AddPersons.cs" />
+    <Compile Remove="Migrations\20200305123636_AddPersons.Designer.cs" />
+    <Compile Remove="Migrations\20200305125922_AddPersons.cs" />
+    <Compile Remove="Migrations\20200305125922_AddPersons.Designer.cs" />
+    <Compile Remove="Migrations\20200305130556_AddPersons.cs" />
+    <Compile Remove="Migrations\20200305130556_AddPersons.Designer.cs" />
+    <Compile Remove="Migrations\20200305130722_AddPersons.cs" />
+    <Compile Remove="Migrations\20200305130722_AddPersons.Designer.cs" />
+    <Compile Remove="Migrations\20200305131912_AddPersons.cs" />
+    <Compile Remove="Migrations\20200305131912_AddPersons.Designer.cs" />
+    <Compile Remove="Migrations\20200305151929_ClearDataBase.cs" />
+    <Compile Remove="Migrations\20200305151929_ClearDataBase.Designer.cs" />
+    <Compile Remove="Migrations\20200305152331_Qwerty.cs" />
+    <Compile Remove="Migrations\20200305152331_Qwerty.Designer.cs" />
+    <Compile Remove="Migrations\20200305152726_Qwerty.cs" />
+    <Compile Remove="Migrations\20200305152726_Qwerty.Designer.cs" />
+    <Compile Remove="Migrations\20200305154413_ReCreateTables.cs" />
+    <Compile Remove="Migrations\20200305154413_ReCreateTables.Designer.cs" />
+    <Compile Remove="Migrations\20200305160743_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200305160743_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200305161335_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200305161335_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200305161952_Experiment.cs" />
+    <Compile Remove="Migrations\20200305161952_Experiment.Designer.cs" />
+    <Compile Remove="Migrations\20200305162542_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200305162542_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200306144954_SetProtected.cs" />
+    <Compile Remove="Migrations\20200306144954_SetProtected.Designer.cs" />
+    <Compile Remove="Migrations\20200313141420_FullInterception.cs" />
+    <Compile Remove="Migrations\20200313141420_FullInterception.Designer.cs" />
+    <Compile Remove="Migrations\20200315190807_SetMaxLenght.cs" />
+    <Compile Remove="Migrations\20200315190807_SetMaxLenght.Designer.cs" />
+    <Compile Remove="Migrations\20200317155407_ModelModify.cs" />
+    <Compile Remove="Migrations\20200317155407_ModelModify.Designer.cs" />
+    <Compile Remove="Migrations\20200317160126_ModelModify.cs" />
+    <Compile Remove="Migrations\20200317160126_ModelModify.Designer.cs" />
+    <Compile Remove="Migrations\20200317174023_ClearDb.cs" />
+    <Compile Remove="Migrations\20200317174023_ClearDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProxyBaseModels\ProxyBaseModels.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
