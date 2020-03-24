@@ -5,8 +5,6 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-using ProxyBaseModels;
-
 using ProxyBaseMVC.Data;
 
 namespace ProxyBaseMVC.Models {

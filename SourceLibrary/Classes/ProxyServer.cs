@@ -6,7 +6,7 @@ namespace SourceLibrary {
 
     /// <summary>Прокси сервер.</summary>
     [Serializable]
-    public sealed class ProxyServer : IProxyServer {
+    public sealed class ProxyServer {
 
         [field: NonSerialized]
         [MinLength(7)]
