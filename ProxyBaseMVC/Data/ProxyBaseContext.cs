@@ -8,6 +8,7 @@ namespace ProxyBaseMVC.Data {
 
         public ProxyBaseContext(DbContextOptions<ProxyBaseContext> options) : base(options) { }
 
+        public DbSet<ProxyDTO> Proxies { get; set; }
     }
 
 }
