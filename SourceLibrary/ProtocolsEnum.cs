@@ -1,10 +1,12 @@
 ﻿using System;
 
-namespace SourceLibrary {
+namespace SourceLibrary
+{
 
     /// <summary>Основные протоколы прокси-серверов.</summary>
     [Flags]
-    public enum ProtocolsEnum {
+    public enum ProtocolsEnum
+    {
         /// <summary>http protocol.</summary>
         http,
         /// <summary>https protocol.</summary>
