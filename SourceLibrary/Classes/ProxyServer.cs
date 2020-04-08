@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace SourceLibrary
-{
+namespace SourceLibrary {
 
     /// <summary>Прокси сервер.</summary>
     [Serializable]
-    public sealed class ProxyServer : IProxyServer
-    {
+    public sealed class ProxyServer : IProxyServer, IPrimaryKey {
+
+        public int Id { get; set; }
 
         [field: NonSerialized]
         [MinLength(7)]
@@ -16,11 +16,9 @@ namespace SourceLibrary
         public string Ip { get; set; }
 
         [Range(0, 65535)]
-        public int Port
-        {
+        public int Port {
             get => Port;
-            set
-            {
+            set {
                 if (value < 0 || value > 65535) throw new ArgumentOutOfRangeException(nameof(value));
             }
         }
@@ -31,7 +29,6 @@ namespace SourceLibrary
 
         [field: NonSerialized]
         public DateTime LastResponse { get; set; }
-
     }
 
 }

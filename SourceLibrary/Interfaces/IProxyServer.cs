@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SourceLibrary
-{
+namespace SourceLibrary {
     /// <summary>Proxy Server.</summary>
-    public interface IProxyServer
-    {
+    public interface IProxyServer {
         /// <summary>Ip address.</summary>
         string Ip { get; set; }
 

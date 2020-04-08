@@ -6,19 +6,14 @@ using ProxyBaseMVC.Data;
 using System;
 using System.Linq;
 
-namespace ProxyBaseMVC.Models
-{
-    public static class SeedData
-    {
+namespace ProxyBaseMVC.Models {
+    public static class SeedData {
 
-        public static void Initialize(IServiceProvider serviceProvider)
-        {
+        public static void Initialize(IServiceProvider serviceProvider) {
             using (var context = new ProxyBaseContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<ProxyBaseContext>>()))
-            {
-                if (context.Proxies.Any())
-                {
+                    DbContextOptions<ProxyBaseContext>>())) {
+                if (context.Proxies.Any()) {
                     return;
                 }
 
