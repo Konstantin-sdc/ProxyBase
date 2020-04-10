@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 
 namespace SourceLibrary {
+
     /// <summary>Proxy Server.</summary>
-    public interface IProxyServer {
-        /// <summary>Ip address.</summary>
-        string Ip { get; set; }
+    internal interface IProxyServer {
+
+        /// <summary>IP-address.</summary>
+        IIPaddress Ip { get; set; }
 
         /// <summary>Is work or not.</summary>
         bool IsWork { get; set; }
@@ -21,4 +23,5 @@ namespace SourceLibrary {
         int ResponseTime { get; set; }
 
     }
+
 }

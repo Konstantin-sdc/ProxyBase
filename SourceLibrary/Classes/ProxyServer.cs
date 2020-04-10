@@ -10,10 +10,7 @@ namespace SourceLibrary {
 
         public int Id { get; set; }
 
-        [field: NonSerialized]
-        [MinLength(7)]
-        [MaxLength(15)]
-        public string Ip { get; set; }
+        public IIPaddress Ip { get; set; }
 
         [Range(0, 65535)]
         public int Port {
