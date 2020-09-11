@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SourceLibrary {
+﻿namespace SourceLibrary {
+    using System;
+    using System.Collections.Generic;
 
     /// <summary>Proxy Server.</summary>
     internal interface IProxyServer {

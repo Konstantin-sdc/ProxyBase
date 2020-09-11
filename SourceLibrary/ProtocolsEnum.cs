@@ -1,6 +1,5 @@
-﻿using System;
-
-namespace SourceLibrary {
+﻿namespace SourceLibrary {
+    using System;
 
     /// <summary>Основные протоколы прокси-серверов.</summary>
     [Flags]

@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-namespace SourceLibrary {
+﻿namespace SourceLibrary {
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
     /// <summary>Прокси сервер.</summary>
     [Serializable]

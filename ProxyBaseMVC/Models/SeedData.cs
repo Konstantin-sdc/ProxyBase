@@ -1,12 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿namespace ProxyBaseMVC.Models {
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.DependencyInjection;
 
-using ProxyBaseMVC.Data;
+    using ProxyBaseMVC.Data;
 
-using System;
-using System.Linq;
+    using System;
+    using System.Linq;
 
-namespace ProxyBaseMVC.Models {
     public static class SeedData {
 
         public static void Initialize(IServiceProvider serviceProvider) {

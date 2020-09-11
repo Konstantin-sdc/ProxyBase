@@ -1,14 +1,14 @@
-
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-
-using ProxyBaseMVC.Models;
-
-using System;
-
 namespace ProxyBaseMVC {
+
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using Microsoft.Extensions.Logging;
+
+    using ProxyBaseMVC.Models;
+
+    using System;
+
     public class Program {
 
         public static void Main(string[] args) {

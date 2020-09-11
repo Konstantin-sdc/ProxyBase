@@ -1,6 +1,5 @@
-﻿using System;
-
-namespace SourceLibrary {
+﻿namespace SourceLibrary {
+    using System;
 
     /// <summary>Geographical coordinates.</summary>
     public class GeoLocation : IGeoLocation, IPrimaryKey {

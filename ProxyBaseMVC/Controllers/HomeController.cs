@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿namespace ProxyBaseMVC.Controllers {
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
 
-using ProxyBaseMVC.Models;
+    using ProxyBaseMVC.Models;
 
-using System.Diagnostics;
+    using System.Diagnostics;
 
-namespace ProxyBaseMVC.Controllers {
     public class HomeController : Controller {
         private readonly ILogger<HomeController> _logger;
 

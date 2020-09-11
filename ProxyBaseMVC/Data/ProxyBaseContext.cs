@@ -1,6 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace ProxyBaseMVC.Data {
+﻿namespace ProxyBaseMVC.Data {
+    using Microsoft.EntityFrameworkCore;
 
     public class QWER { }
 

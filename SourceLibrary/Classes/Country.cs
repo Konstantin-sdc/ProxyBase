@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SourceLibrary {
+﻿namespace SourceLibrary {
+    using System.ComponentModel.DataAnnotations;
 
     /// <summary>Country class.</summary>
     public class Country : ICountry {

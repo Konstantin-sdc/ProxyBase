@@ -1,7 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-
-namespace SourceLibrary {
+﻿namespace SourceLibrary {
+    using System;
+    using System.ComponentModel.DataAnnotations;
 
     /// <summary>IP-address class.</summary>
     public class IPAddress : IIPaddress, IPrimaryKey {
