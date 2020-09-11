@@ -1,18 +1,22 @@
-﻿namespace SourceLibrary {
+﻿namespace SourceLibrary
+{
     using System;
     using System.ComponentModel.DataAnnotations;
 
     /// <summary>IP-address class.</summary>
-    public class IPAddress : IIPaddress, IPrimaryKey {
+    public class IPAddress : IIPaddress, IPrimaryKey
+    {
 
         public int Id { get; set; }
 
         /// <summary>IPv4 address.</summary>
         [MinLength(7)]
         [MaxLength(15)]
-        public string IPString {
+        public string IPString
+        {
             get => IPString;
-            set {
+            set
+            {
                 if (value.Length < 7 || value.Length > 15) throw new ArgumentOutOfRangeException(value);
             }
         }

@@ -1,9 +1,11 @@
-﻿namespace SourceLibrary {
+﻿namespace SourceLibrary
+{
     using System;
     using System.Collections.Generic;
 
     /// <summary>Proxy Server.</summary>
-    internal interface IProxyServer {
+    internal interface IProxyServer
+    {
 
         /// <summary>IP-address.</summary>
         IIPaddress Ip { get; set; }

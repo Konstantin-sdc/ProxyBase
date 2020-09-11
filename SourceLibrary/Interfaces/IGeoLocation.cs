@@ -1,7 +1,9 @@
-﻿namespace SourceLibrary {
+﻿namespace SourceLibrary
+{
 
     /// <summary>Geographical coordinates.</summary>
-    public interface IGeoLocation {
+    public interface IGeoLocation
+    {
 
         /// <summary>Object latitude.</summary>
         double Latitude { get; set; }

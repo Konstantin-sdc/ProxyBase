@@ -1,7 +1,9 @@
-﻿namespace SourceLibrary {
+﻿namespace SourceLibrary
+{
 
     /// <summary>City interface.</summary>
-    public interface ICity {
+    public interface ICity
+    {
 
         /// <summary>City title.</summary>
         string Title { get; set; }

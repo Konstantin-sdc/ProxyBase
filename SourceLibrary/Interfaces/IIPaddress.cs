@@ -1,7 +1,9 @@
-﻿namespace SourceLibrary {
+﻿namespace SourceLibrary
+{
 
     /// <summary>Internet Protocol Address.</summary>
-    public interface IIPaddress {
+    public interface IIPaddress
+    {
 
         /// <summary>IP-address in string notation.</summary>
         public string IPString { get; set; }
